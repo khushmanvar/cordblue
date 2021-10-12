@@ -6,8 +6,8 @@ const client = new Discord.Client();
 let interval;
 client.on('message', async msg => {
   switch (msg.content) {
-    case "ping":
-      msg.reply("Pong!");
+    case "hi":
+      msg.reply("Hello! Welcome to the Khush's Server, hope you have a good time here!");
       break;
     case "!meme":
       msg.channel.send("Here's your meme!");
@@ -29,11 +29,10 @@ client.on('message', async msg => {
 });
 
 async function getMeme(){
-  const res = await axios.get('https://memeapi.pythonanywhere.com/');
-  console.log(res.data)
-  return res.data.memes[0].url;
+  const res = await axios.get('https://meme-api.herokuapp.com/gimme');
+  console.log(res.data.preview[0])
+  return res.data.preview[0];
 }
 
-
 //must be last line
-client.login(process.env.CLIENT_TOKEN);
+client.login("ODk1NTgxMjYwODc1OTU2MjM0.YV6pCw.LUx-J6wZ4b4Nja6EzDHfRuXgyJ4");
