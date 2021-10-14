@@ -37,8 +37,6 @@
 
 * [Node.js](https://nodejs.org/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -61,8 +59,6 @@ To get a local copy up and running follow these simple steps.
    node index.js
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -77,8 +73,6 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -87,7 +81,6 @@ Twitter - [@khush_mnvr](https://twitter.com/khush_mnvr)
 
 Project Link: [https://github.com/khushmanvar/cordblue](https://github.com/khushmanvar/cordblue)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/khushmanvar/cordblue.svg?style=for-the-badge
 [contributors-url]: https://github.com/khushmanvar/cordblue/graphs/contributors
